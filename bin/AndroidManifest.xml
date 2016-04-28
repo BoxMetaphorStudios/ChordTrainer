@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chordtrainer"
+    android:versionCode="2"
+    android:versionName="1.01" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name=".ChordApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chordtrainer.FlashcardListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chordtrainer.FlashcardPagerActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".FlashcardListActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chordtrainer.FlashcardListActivity" />
+        </activity>
+        <activity
+            android:name="com.chordtrainer.QuizActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chordtrainer.Options"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>
