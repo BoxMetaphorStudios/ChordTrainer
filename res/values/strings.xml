@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chord trainer</string>
+	<string name="action_settings">Settings</string>
+    <string name="test_question">What interval do you hear?</string>
+    <string name="fc_button">FLASH CARDS</string>
+    <string name="quiz_button">QUIZ MODE!</string>
+    <string name="options_button">OPTIONS</string>
+    <string name="ast_image">Aural Skills Trainer</string>
+    <string name="fc_question">Flash Card Question</string>
+    <string name="fc_play_button">Hear Example</string>
+    <string name="fc_broken_button">Broken Chord</string>
+    <string name="fc_block_button">Block Chord</string>
+    <string name="fc_next_button">Next Chord →</string>
+    <string name="fc_previous_button">← Previous Chord</string>
+    <string name="flashcard_title_label">Title</string>
+    <string name="flashcard_hear_label">Hear Example</string>
+    <string name="flashcard_details_label">Details</string>
+    <string name="quiz_question">Which chord do you hear?</string>
+    <string name="quiz_replay">Play Chord Again</string>
+    <string name="quiz_submit_button">Submit Answer</string>
+    <string name="next">Go to next chord →</string>
+    <string name="next2">Next →</string>
+    <string name="replay">Replay Chord</string>
+    <string name="select_prompt">Please select one of the answers!</string>
+    <string name="select_prompt2">Please select interval and quality!</string>
+    <string name="replay_prompt">Replay limit reached - please submit answer!</string>
+    <string name="new_quiz">New Quiz</string>
+    <string name="score_title">Your Score:</string>
+    <!-- Settings dialog -->
+    <string name="quizSettingsTitle">Quiz Settings</string>
+    <string name="quizLevels">Difficulty</string>
+    <string name="quizLevel1">Easy (triads)</string>
+    <string name="quizLevel2">Standard (7th chords)</string>
+    <string name="quizLevel3">Advanced (extended chords)</string>
+    <string name="quizLevel4">Jazz/Popular</string>
+    <string name="quizLevel5">All Chords</string>
+    <string name="quizCount">Number of questions</string>
+    <string name="replayCount">Replay limit</string>
+    <string name="labelJazzPopMode">Jazz/Popular Mode</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+	<!-- Tutorial -->  
+	<string name="tutor">Welcome fellow musicians and music lovers!</string>
+	<string name="first_time_text">"Welcome to the Aural Skills Trainer: Chords app! On the home page, you'll find options to check out flash cards, do a quiz and configure options. Thank you for downloading this app and wanting to learn more about music!</string>
+    <string name="first_time_title">Welcome!</string>
+    <string name="but_first">&quot;Let's go!&quot;</string>
+    <!-- Chord names: -->
+    <!-- Easy: -->
+    <string name="maj_name">Major</string>
+    <string name="min_name">Minor</string>
+    <string name="maj_s5_name">Augmented</string>
+    <string name="dim_name">Diminished</string>
+    <!-- Standard: -->
+    <string name="maj7_name">Major 7th</string>
+    <string name="dom7_name">Dominant 7th</string>
+    <string name="min7_name">Minor/Minor 7th</string>
+    <string name="min7_b5_name">Half Diminished 7th</string>
+    <string name="dim7_name">Fully Diminished 7th</string>
+    <!-- Advanced: -->
+    <string name="dom7_s5_name">Dominant/Augmented 7th</string>
+    <string name="dom9_name">Dominant 9th</string>
+    <string name="dom7_b9_name">Dominant Minor 9th</string>
+    <string name="dom11_name">Dominant 11th</string>
+    <string name="dom13_name">Dominant 13th</string>
+    <string name="dom9_b13_name">Dominant Minor 13th</string>
+	<!-- Pop/Jazz: -->
+    <string name="maj6_name">Major 6th</string>
+    <string name="min6_name">Minor 6th</string>
+    <string name="maj69_name">Major 6th/Add 9</string>
+    <string name="min69_name">Minor 6th/Add 9</string>
+    <string name="dom74_name">Suspended Dominant 7th</string>
+    <string name="maj9_name">Major 9th</string>
+    <string name="min9_name">Minor 9th</string>
+    <string name="pow5_name">Power Chord</string>
+    <!-- Chord symbols: -->
+    <!-- Easy: -->
+    <string name="maj_sym">" "</string>
+    <string name="min_sym">min</string>
+    <string name="maj_s5_sym">Maj(&#x266F;5)</string>
+    <string name="dim_sym">dim</string>
+    <!-- Standard: -->
+    <string name="maj7_sym">Maj7</string>
+    <string name="dom7_sym">7</string>
+    <string name="min7_sym">min7</string>
+    <string name="min7_b5_sym">min7(&#x266D;5)</string>
+    <string name="dim7_sym">dim7</string>
+    <!-- Advanced: -->
+    <string name="dom7_s5_sym">7(&#x266F;5)</string>
+    <string name="dom9_sym">9</string>
+    <string name="dom7_b9_sym">7(&#x266D;9)</string>
+    <string name="dom11_sym">11</string>
+    <string name="dom13_sym">13</string>
+    <string name="dom9_b13_sym">9(&#x266D;13)</string>
+	<!-- Pop/Jazz: -->
+    <string name="maj6_sym">6</string>
+    <string name="min6_sym">min6</string>
+    <string name="maj69_sym">6/9</string>
+    <string name="min69_sym">min6/9</string>
+    <string name="dom74_sym">7sus</string>
+    <string name="maj9_sym">Maj9</string>
+    <string name="min9_sym">min9</string>
+    <string name="pow5_sym">5</string>
+    <!-- Chord descriptions: -->
+    <!-- Easy: -->
+    <string name="maj_desc">" "</string>
+    <string name="min_desc">" "</string>
+    <string name="maj_s5_desc">Sharp: Raise Perfect 5th by half step</string>
+    <string name="dim_desc">Cmin with lowered (or flat) Perfect 5th</string>
+    <!-- Standard: -->
+    <string name="maj7_desc">Major 3rd and Major 7th</string>
+    <string name="dom7_desc">Dominant: Minor 7th, Major 3rd</string>
+    <string name="min7_desc">Minor 3rd and Minor 7th</string>
+    <string name="min7_b5_desc">Cmin7 with lowered Perfect 5th</string>
+    <string name="dim7_desc">Cmin7(flat5) with lowered 7th</string>
+    <!-- Advanced: -->
+    <string name="dom7_s5_desc">Dominant 7th with raised Perfect 5th</string>
+    <string name="dom9_desc">Dominant 7th with added Major 9th</string>
+    <string name="dom7_b9_desc">Dominant 7th with added Minor 9th </string>
+    <string name="dom11_desc">Dominant 7th without 3rd, add Major 9th/Perfect 11th</string>
+    <string name="dom13_desc">Dominant 9th without 5th, add Major 13, omit Perfect 11th</string>
+    <string name="dom9_b13_desc">Dominant 9th without 5th, add Minor 13, omit Perfect 11th</string>
+	<!-- Pop/Jazz: -->
+    <string name="maj6_desc">C with added Major 6th</string>
+    <string name="min6_desc">Cmin with added Major 6th</string>
+    <string name="maj69_desc">C6 with added 9th</string>
+    <string name="min69_desc">Cmin6 with added 9th</string>
+    <string name="dom74_desc">C7 without Major 3rd, add Perfect 4th</string>
+    <string name="maj9_desc">CMaj7 with added Major 9th</string>
+    <string name="min9_desc">Cmin7 with added Major 9th</string>
+    <string name="pow5_desc">Open Perfect 5th (C and G) </string>
+    <!-- Chord info: -->
+    <!-- Easy: -->
+    <string name="maj_info">chord info</string>
+    <string name="min_info">chord info</string>
+    <string name="maj_s5_info">chord info</string>
+    <string name="dim_info">chord info</string>
+    <!-- Standard: -->
+    <string name="maj7_info">chord info</string>
+    <string name="dom7_info">chord info</string>
+    <string name="min7_info">chord info</string>
+    <string name="min7_b5_info">chord info</string>
+    <string name="dim7_info">chord info</string>
+    <!-- Advanced: -->
+    <string name="dom7_s5_info">chord info</string>
+    <string name="dom9_info">chord info</string>
+    <string name="dom7_b9_info">chord info</string>
+    <string name="dom11_info">chord info</string>
+    <string name="dom13_info">chord info</string>
+    <string name="dom9_b13_info">chord info</string>
+	<!-- Pop/Jazz: -->
+    <string name="maj6_info">chord info</string>
+    <string name="min6_info">chord info</string>
+    <string name="maj69_info">chord info</string>
+    <string name="min69_info">chord info</string>
+    <string name="dom74_info">chord info</string>
+    <string name="maj9_info">chord info</string>
+    <string name="min9_info">chord info</string>
+    <string name="pow5_info">chord info</string>
+    <!-- Credits -->
+    <string name="credits">"Thank you for using this app! Here are the folks responsible:
+Nathan Foxley, Box Metaphor Studios founder, lead programmer and master's in music theory holder.
+
+James Lloyd: Designer, illustrator, and all around good guy.
+
+Steve Mathews: Music theory expert and tester.
+
+Our hired hand and freelancer Davor Slamnig was crucial to the programming process.
+
+Email questions and bug issues to support@boxmetaphorstudios.com."</string>
+    <string name="tutorTitle">Tutor</string>
+    <string name="creditsTitle">Who is Responsible for This:</string>
+    <string name="fb_link">"Click here to go to the Box Metaphor Studio Facebook page:
+https://www.facebook.com/boxmetaphorstudios/timeline
+
+Follow us on Twitter at @boxmetaphorapps."</string>
+    
+</resources>
